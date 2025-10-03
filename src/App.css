@@ -7,8 +7,8 @@
 :root {
     --bg-dark: #0a0a0a;
     --bg-card: #1a1a1a;
-    --accent-gold: #d4af37;
-    --accent-red: #c41e3a;
+    --accent-gold: #c41e3a;
+    --accent-red: #8b0000;
     --text-primary: #ffffff;
     --text-secondary: #b0b0b0;
     --border-color: #333;
@@ -36,10 +36,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--accent-gold);
+    background: #c41e3a;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #c4af37;
+    background: #a01828;
 }
