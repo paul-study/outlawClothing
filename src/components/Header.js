@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
 function Header() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <header className="header">
             <div className="nav-container">
@@ -12,12 +18,17 @@ function Header() {
                         <span className="logo-subtitle">STREETWEAR EMPIRE</span>
                     </div>
                 </div>
-                <nav>
+                
+                <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+                    <span className={isMenuOpen ? 'active' : ''}></span>
+                    <span className={isMenuOpen ? 'active' : ''}></span>
+                    <span className={isMenuOpen ? 'active' : ''}></span>
+                </button>
+                
+                <nav className={isMenuOpen ? 'nav-open' : ''}>
                     <ul className="nav-menu">
-                        <li><button className="nav-link">New Drops</button></li>
-                        <li><button className="nav-link">Collections</button></li>
-                        <li><button className="nav-link">About</button></li>
-                        <li><button className="nav-link">Contact</button></li>
+                        <li><button className="nav-link" onClick={toggleMenu}>About</button></li>
+                        <li><button className="nav-link" onClick={toggleMenu}>Contact</button></li>
                     </ul>
                 </nav>
             </div>
