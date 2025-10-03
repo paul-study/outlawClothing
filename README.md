@@ -1,4 +1,4 @@
-# OUTLAW - Streetwear Empire 🔥
+# OUTLAWED - Streetwear Empire 🔥
 
 A dark-themed, gangster-inspired streetwear clothing e-commerce app built with **React**.
 
@@ -156,6 +156,6 @@ This is a demo project for educational purposes.
 
 ---
 
-**OUTLAW** - Rule the Streets 👑
+**OUTLAWED** - Rule the Streets 👑
 
 Built with ❤️ and React

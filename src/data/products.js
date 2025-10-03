@@ -17,7 +17,7 @@ export const PRODUCTS_DATABASE = [
     },
     {
         id: 3,
-        name: "Outlaw Bomber",
+        name: "Outlawed Bomber",
         category: "jackets",
         price: 159.99,
         description: "Classic bomber jacket with custom patches. Urban legend status.",

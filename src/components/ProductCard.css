@@ -71,7 +71,7 @@
 
 .product-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 1rem;
 }
@@ -80,23 +80,4 @@
     font-size: 1.5rem;
     color: var(--accent-gold);
     font-weight: bold;
-}
-
-.add-to-cart-btn {
-    background: var(--accent-red);
-    color: white;
-    padding: 0.7rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    letter-spacing: 1px;
-}
-
-.add-to-cart-btn:hover {
-    background: #a01828;
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(196, 30, 58, 0.5);
 }

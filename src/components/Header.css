@@ -17,6 +17,18 @@
     align-items: center;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-image {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo {
     font-family: 'Bebas Neue', cursive;
     font-size: 2.5rem;
