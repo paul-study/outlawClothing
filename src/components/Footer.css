@@ -1,0 +1,25 @@
+.footer {
+    background: var(--bg-dark);
+    border-top: 2px solid var(--accent-gold);
+    padding: 3rem 2rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: var(--accent-gold);
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
