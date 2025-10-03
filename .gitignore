@@ -22,7 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# old files
-index.html
-styles.css
-app.js
+# old files from root (not needed for React app)
+/index.html
+/styles.css
+/app.js
